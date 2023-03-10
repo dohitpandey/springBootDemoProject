@@ -11,6 +11,9 @@ import java.util.List;
 public class Controller2 {
 @RequestMapping("/courses")
     public List<Object> courseList(){
-        return Arrays.asList(new Course(1,"java","author1"),new Course(2,"python","author2"));
+        return Arrays.asList(new Course(1,"java","author1"),
+                new Course(2,"python","author2"),
+                new Course(2,"php","author3"),
+                new Course(2,"js","author4"));
     }
 }
